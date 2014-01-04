@@ -16,6 +16,8 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
+@property (retain) id dataModel;
+
 - (IBAction)saveAction:(id)sender;
 
 @end
